@@ -1,0 +1,42 @@
+.h1{
+    font-family: sans-serif;
+    font-size: 35px;
+l   line-height: 1;
+    letter-spacing: -0.027em;
+    font-weight: 600;
+    font-style: normal;
+}
+img {
+display: block;
+margin-left: 37%;
+margin-right: auto;
+width: 50%;
+align-self: center;
+height: 230px;
+width: 320px;
+  }
+  button{
+    padding: 12px 12px;
+    margin: 26px 0;
+    border: none;
+    cursor: pointer;
+    width: 12%;
+   background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%)
+  /* .btn-grad:hover { background-position: right center; } */
+  }
+  button:hover{
+    background-position: right center;
+  }
+#container{
+    display:grid;
+    width:50px;
+}
+#center{
+    align:center;
+}
+#right{
+    align:right;
+}
+#left{
+    align:left;
+}
